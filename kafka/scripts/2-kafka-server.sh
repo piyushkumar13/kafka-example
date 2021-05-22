@@ -1,1 +1,2 @@
 $KAFKA_HOME/bin/kafka-server-start.sh $KAFKA_HOME/config/server.properties
+#JMX_PORT=8004 $KAFKA_HOME/bin/kafka-server-start.sh $KAFKA_HOME/config/server.properties # If you want to run CMAK kafka manager, you need to set JMX port.

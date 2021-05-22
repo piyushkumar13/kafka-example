@@ -1,0 +1,1 @@
+$KAFKA_HOME/bin/kafka-consumer-groups.sh --describe --bootstrap-server localhost:9092  --group MY_GROUP
