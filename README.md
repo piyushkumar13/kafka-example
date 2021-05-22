@@ -4,7 +4,8 @@ This project comprises of modules :
 * kafka module
 
 
-##kafka Module
+## kafka Module
+
 
 It actually contains script to execute kafka commands to run zookeeper, kafka-server(broker), create kafka topic etc.
 
