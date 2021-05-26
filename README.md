@@ -2,9 +2,11 @@
 
 This project comprises of modules : 
 
-1. kafka module
+1. kafka
 2. kafka-producer-consumer
 3. kafka-manager
+4. kafka-java-producer-consumer
+5. kafka-spring-boot
 
 
 ## kafka Module
@@ -39,3 +41,9 @@ This module contains the script to start [CMAK](https://github.com/yahoo/CMAK) (
 * Please follow step as mentioned in [this](https://github.com/yahoo/CMAK#deployment) page or refer [this](https://www.youtube.com/watch?v=AlQfpG10vAc) video for demo.
 * Please setup env variable `CMAK_HOME` which should point to cmak dist created by above step.
 * Execute `start-kafka-manager.sh`
+
+## kafka-java-producer-consumer
+This module comprises of simple java producer and consumer with string serialization and json serialization.
+
+## kafka-spring-boot
+This module comprises of java producer and consumer using spring boot with json serialization.
