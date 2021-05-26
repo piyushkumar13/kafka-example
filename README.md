@@ -9,7 +9,7 @@ This project comprises of modules :
 5. kafka-spring-boot
 
 
-## kafka Module
+## kafka
 
 
 It actually contains script to execute kafka commands to run zookeeper, kafka-server(broker), create kafka topic etc.
