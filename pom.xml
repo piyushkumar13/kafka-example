@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>kafka-java-producer-consumer</module>
+        <module>kafka-spring-boot</module>
     </modules>
     <packaging>pom</packaging>
 

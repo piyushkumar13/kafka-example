@@ -1,4 +1,4 @@
-package com.piyush.kafkaspringboot;
+package com.piyush.kafkaspringboot.producer;
 
 import com.piyush.kafkaspringboot.domain.AppConfig;
 import com.piyush.kafkaspringboot.domain.Student;
@@ -19,7 +19,7 @@ import org.springframework.kafka.support.serializer.JsonSerializer;
  */
 
 @Configuration
-public class KafkaConfiguration {
+public class KafkaProducerConfiguration {
 
     @Bean
     public ProducerFactory<String, Student> producerFactory(){

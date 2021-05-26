@@ -1,4 +1,4 @@
-package com.piyush.kafkaspringboot;
+package com.piyush.kafkaspringboot.producer;
 
 import com.piyush.kafkaspringboot.domain.AppConfig;
 import com.piyush.kafkaspringboot.domain.Student;
@@ -10,13 +10,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.kafka.core.KafkaTemplate;
 
 @SpringBootApplication
-public class KafkaSpringBootApplication implements ApplicationRunner {
+public class KafkaProducerSpringBootApplication implements ApplicationRunner {
 
     @Autowired
     private KafkaTemplate<String, Student> kafkaTemplate;
 
     public static void main(String[] args) {
-        SpringApplication.run(KafkaSpringBootApplication.class, args);
+        SpringApplication.run(KafkaProducerSpringBootApplication.class, args);
     }
 
     @Override
