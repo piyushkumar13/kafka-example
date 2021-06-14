@@ -26,9 +26,16 @@
                 <version>2.8.0</version>
             </dependency>
 
+            <!--            <dependency>-->
+            <!--                <groupId>io.confluent</groupId>-->
+            <!--                <artifactId>kafka-streams-json-schema-serde</artifactId>-->
+            <!--                <version>6.1.1</version>-->
+            <!--            </dependency>-->
+
+            <!-- We can also use this kafka-json-schema-serializer dependency instead of kafka-streams-json-schema-serde -->
             <dependency>
                 <groupId>io.confluent</groupId>
-                <artifactId>kafka-streams-json-schema-serde</artifactId>
+                <artifactId>kafka-json-schema-serializer</artifactId>
                 <version>6.1.1</version>
             </dependency>
 

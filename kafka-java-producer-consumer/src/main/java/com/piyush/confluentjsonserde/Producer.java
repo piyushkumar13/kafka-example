@@ -22,7 +22,7 @@ public class Producer {
         properties.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, AppConfig.BOOTSTRAP_SERVER);
         properties.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, IntegerSerializer.class.getName());
         properties.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, KafkaJsonSchemaSerializer.class.getName());
-        properties.put("schema.registry.url", "http://localhost:9092"); // schema registry url
+        properties.put("schema.registry.url", "http://localhost:9092"); // schema registry url. We need to provide schema registry if we are using confluent kafka serializer irrespective of whether it is json or avro
         properties.put(KafkaJsonSchemaSerializerConfig.AUTO_REGISTER_SCHEMAS, "false");
 
         KafkaProducer<Integer, Student> kafkaProducer = new KafkaProducer<>(properties);
