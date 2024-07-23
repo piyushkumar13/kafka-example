@@ -17,7 +17,7 @@ It actually contains script to execute kafka commands to run zookeeper, kafka-se
 I have added kafka to this project, so that kafka setup could run multiple times without any problem, which you may need to run kafka multiple times for local debugging purposes from the scratch.
 Before using it, you need to perform following steps : 
 
-1. For this, download kafka binaries from [here](https://kafka.apache.org/downloads).
+1. For this, download kafka binaries(tgz file) from [here](https://kafka.apache.org/downloads).
 2. Unzip the downloaded zip file.
 3. Open kafka folder and navigate to config folder.
 4. Change server.properties `log.dirs` to point to value **`../tmp/kafka-logs`** and zookeeper.properties `dataDir` to point to value **`../tmp/zookeeper`**.
