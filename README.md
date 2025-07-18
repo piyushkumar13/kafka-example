@@ -42,6 +42,17 @@ This module contains the script to start [CMAK](https://github.com/yahoo/CMAK) (
 * Please setup env variable `CMAK_HOME` which should point to cmak dist created by above step.
 * Execute `start-kafka-manager.sh`
 
+## kafka-manager
+
+This module contains the script to start [Kafka-ui](https://github.com/provectus/kafka-ui) which is a Kafka UI to perform
+cluster management operations.
+
+* Execute `start-kafka-ui.sh`
+* Once started, you can access the UI at `http://localhost:8080` by default.
+* Click on "Configure New Cluster" -> give any Cluster Name -> Add `localhost:9092` or <ip>:<port>(where your broker is running) as bootstrap server -> Click on "Submit" button.`
+* You can now see the cluster details and perform various operations like viewing topics, partitions, consumers, etc.
+
+
 ## kafka-java-producer-consumer
 This module comprises of simple java producer and consumer with string serialization and json serialization.
 
